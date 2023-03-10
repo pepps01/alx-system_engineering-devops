@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Apu | awk '{printf("%s%s",$0,(NR%4==0)?",\n":",")}' | sed 's/\([^\/]\)$/&,/'
+ls -xamp
