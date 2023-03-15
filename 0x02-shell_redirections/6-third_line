@@ -1,2 +1,3 @@
 #!/bin/bash 
-grep -n "" iacta | grep "^3:" 
+grep -n "" iacta | grep "^3:" | cut -d: -f2-
+ 
